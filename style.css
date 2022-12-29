@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    margin: auto;
+    
+}
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding: 50px 30px;
+    
+    
+    
+
+}
+
+.request {
+    border-radius: 6px;
+    text-align: center;
+    height: 56px;
+    width: 219px;
+    border-radius: 6px;
+    border: 1px solid #172339;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.nav .request:active {
+    background: #172339;
+    color: #ffffff;
+
+}
+.logo {
+    width: 78.41px;
+    height: 24.8px;
+    left: 166.15px;
+    top: 62.58px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 600px;
+    margin: 155px 20px;
+    
+   
+}
+
+.sec1 button {
+    background-color:#172339 ;
+    color:#ffffff;
+    
+}
+
+.sec1 button:active {
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}
+
+.left-center {
+    display: flex;
+}
+
+.right {
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.companies, .languages, .leads {
+    padding-bottom: 50px;
+}
+
+
+
+
+ 
+.caps {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.bold {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.left {
+    margin-top: 80px;
+    padding-left: 100px;
+    z-index: 1;
+}
+
+.left p {
+    padding-bottom: 50px;
+}
+
+.center{
+    margin-left: -100px;
+}
+
+.left p:first-child {
+    font-size: 50px;
+    z-index: 1;
+}
+
+.center {
+    width: 350px;
+    height: 50px;
+}
+
+.sec2 {
+    height: 390px;
+    
+}
+
+.extend {
+   
+    background-color: #172339;
+    color: #ffffff;
+    border-radius:15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    margin: 20px 50px;
+    
+    
+}
+
+.right2 {
+    text-align: end;
+    width: 50%;
+    
+}
+
+
+
+.right2 p:first-child {
+    font-size: 42px;
+    
+
+}
+
+.sec2 img {
+    height: 390px;
+}
+
+
+.jeremy {
+    position: absolute;
+    width: 359px;
+    
+    left: 288px;
+    top: 910px;
+    margin-bottom: -500px;
+ }
+
+ footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10px 0 15px;
+ }
+
+ .icon {
+    padding: 0px 20px;
+ }
+ 
+
+
+ @media  (max-width: 1280px) and (min-width: 601px) {
+    
+    body {
+        margin: auto;
+        width: 100%;
+        height: 2150px;
+    }
+
+
+    .sec1 {
+        width: 95%;
+    }
+
+    .left {
+        z-index: 1;
+    }
+
+    .right {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 0;
+        
+
+        
+    }
+
+    .sec2 {
+        padding-top: 200px;
+        
+        
+    }
+
+    .extend {
+        height: 700px;
+                
+    }
+
+    .right2 {
+        position: relative;
+        top: 300px;
+        text-align: center;
+    }
+
+    
+    .jeremy {
+        left: 230px;
+        top: 1070px;
+        
+    }
+
+    footer {
+        position: relative;
+        bottom: -520px;
+    }
+
+    
+
+
+    
+
+    
+
+   
+    
+ }
+
+
+
+ 
+ @media (max-width: 653px) and (min-width: 280px) {
+    
+
+    body {
+        width:100% ;
+        margin: auto;
+        height: 2300px;
+        
+    }
+
+    .request {
+        width: 150px;
+        padding: 0 10px;
+    }
+    
+
+     
+    .logo {
+        width: 50px;
+        height: 24px;
+    }
+
+    .center {
+        display: none;
+    }
+
+    .sec1 {
+        display: inline-block;
+        padding-right: 60px;
+        width: auto;
+    }
+
+    .left {
+        margin-top: -100px;
+        padding-left: -80px;
+    }
+
+    .left p:first-child {
+        font-size: 30px;
+        
+
+    }
+
+    .sec1 button {
+        width: 219px;
+        height: 56px;
+    }
+
+    .right {
+        text-align: center;
+        height: 330px;
+    }
+
+    .companies, .languages, .leads {
+        padding-bottom: 20px;
+    }
+
+   
+
+    .extend {
+        display: inline-block;
+        position: absolute;
+        top: 1280px;
+        width: auto;
+        height: 700px;
+        
+       
+        
+    
+    }
+
+    .jeremy {
+        width: 200px;
+        height: 50px;
+        left: 60px;
+        top: -180px;
+        position: absolute;
+        
+        
+        
+       
+        
+    }
+
+    .right2 {
+        text-align: center;
+        position: relative;
+        top: 200px;
+        padding: 5px 0;
+        width: 100%;
+    }
+    footer {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        bottom: -520px;
+        left: 100px;
+    }
+
+ }
