@@ -102,7 +102,10 @@ body {
     z-index: 1;
     line-height: 38px;
 }
-
+ 
+.curve {
+    padding-left: 80px;
+}
 .left p {
     padding-bottom: 30px;
 }
@@ -206,6 +209,10 @@ body {
     .left {
         z-index: 1;
     }
+    .curve {
+        width: 350px;
+        height: 40px;
+    }
 
     .right {
         width: 90%;
@@ -298,6 +305,12 @@ body {
         padding-left: -80px;
     }
 
+    .curve {
+        padding-left: 0px;
+        width: 150px;
+        height: 20px;
+    }
+
     .left p:first-child {
         font-size: 30px;
         
@@ -325,7 +338,7 @@ body {
         position: absolute;
         top: 1280px;
         width: auto;
-        height: 740px;
+        height: 800px;
         
        
         
@@ -336,7 +349,7 @@ body {
         width: 200px;
         height: 50px;
         left: 60px;
-        top: -130px;
+        top: -80px;
         position: absolute;
         
         
@@ -348,10 +361,11 @@ body {
     .right2 {
         text-align: center;
         position: relative;
-        top: 200px;
+        top: 250px;
         padding: 25px 0;
         width: 100%;
     }
+    
     footer {
         display: inline-block;
         text-align: center;
